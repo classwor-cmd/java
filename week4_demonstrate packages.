@@ -1,0 +1,27 @@
+ALGORITHM:
+
+STEP1: START
+STEP2: Create a package with name ‘mypack’ in the current directory
+STEP3: Write a simple java program to print the message “welcome to package” ,import the package ‘mypack’ and save the file with name Simple.java 
+STEP4: set the class path to send the class file of A.java source file into classes folder of c: drive.
+STEP5:STOP
+
+To Compile:
+e:\sources> javac -d c:\classes Simple.java
+To Run:
+To run this program from e:\source directory, you need to set classpath of the directory where the class file resides.
+e:\sources> set classpath=c:\classes;.;
+e:\sources> java mypack.Simple
+
+SOURCE CODE
+
+package shailu;  
+	public class Usageofclasspath{  
+	 public static void main(String args[]){  
+	    System.out.println("Welcome to package");  
+	   }  
+	}  
+
+
+
+
